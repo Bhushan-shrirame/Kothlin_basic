@@ -1,0 +1,54 @@
+Welcome to kotlin Basics 
+
+
+Hello World programe in kotlin
+
+fun main (){
+    println("hello world")
+}
+
+// output = hello world
+
+// Kotlin variable //
+
+/* Variable refers to a memory location. It is used to store data. The  data of variable can
+be change and reused depending on condition or on information passed to the programe */
+
+val name = "bhushan" 
+// here the "val" is "value" it will be fixed when  assign the values
+
+var marks = 28
+marks = 30 
+// here the var is "variable" it can be change over the time when needed
+
+// IMPORTANT when assign the valu to the string you should always put the value in double inverted comma.
+
+// To tell the data type to the programe 
+fun main (){
+    var lan:String
+    lan = "Bhushan"
+    println("your name is "+lan)
+    // OR
+    println("your name is $lan') 
+}
+
+/*Output  
+  your name is Bhushan
+  your name is Bhushan*/
+
+//For addtion of the number in kotlin the code is
+fun main (){
+    var number1:Int = 10
+    var number2:Int = 20
+
+    println("Addition of two number is ${number1+number2}")
+}
+//output = Addition of two  number is 30
+
+
+
+
+
+
+
+
