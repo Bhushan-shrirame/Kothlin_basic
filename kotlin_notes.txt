@@ -45,8 +45,25 @@ fun main (){
 }
 //output = Addition of two  number is 30
 
+// \n is for new line
+// \t is for new tab
+// \b is to remove the word in line
 
+//Raw String
 
+fun main (){
+  var sen ="""Hello
+      |Bhushan
+      |Shrirame
+  """.trimMargin()
+    println(sen)
+}
+/*Output 
+Hello
+Bhushan
+Shrirame*/
+
+31:38 youtube
 
 
 
